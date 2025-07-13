@@ -292,53 +292,10 @@
 
     <!-- Attendance form section -->
     <section id="rsvp" class="rsvp">
-      <div class="container">
-        <div class="row justify-content-center">
-          <!-- Column for the title and description of the form -->
-          <div class="col-md-8 col-10 text-center">
-            <h2>Kedatangan</h2>
-            <p>Isi form dibawah untuk konfirmasi kedatangan.</p>
-          </div>
-        </div>
-
-        <!-- Form for attendance confirmation -->
-        <!-- The form uses POST method to send data to a Google Script URL -->
-        <form class="row row-cols-md-auto g-3 align-items-center justify-content-center" method="POST" action="https://script.google.com/macros/s/AKfycbxccgG4ZLJLrIbxq-0r62c_cWDBEIWxwRkNIO3DHLKWkvXyj9ms_ShaBV1cEnOkpZIE/exec" id="my-form">
-          <!-- Input field for Name -->
-          <div class="col-12">
-            <div class="mb-3">
-              <label for="nama" class="form-label">Nama</label>
-              <input type="text" class="form-control" id="nama" name="nama" />
-            </div>
-          </div>
-
-          <!-- Input field for Total (number of attendees) -->
-          <div class="col-12">
-            <div class="mb-3">
-              <label for="jumlah" class="form-label">Total</label>
-              <input type="number" class="form-control" id="jumlah" name="jumlah" min="1" max="5" length="1" value="1" />
-            </div>
-          </div>
-
-          <!-- Dropdown for confirming attendance status -->
-          <div class="col-12">
-            <div class="mb-3">
-              <label for="status" class="form-label">Confirm</label>
-              <select name="status" id="status" class="form-select">
-                <option selected>Choose</option>
-                <option value="Hadir">Attend</option>
-                <option value="Tidak Hadir">Absent</option>
-              </select>
-            </div>
-          </div>
-
-          <!-- Submit button to send the form data -->
-          <div class="col-12" style="margin-top: 35px">
-            <button class="btn btn-primary">Send</button>
-          </div>
-        </form>
-      </div>
-    </section>
+       <!-- Tombol Aksi -->
+    <div class="buttons">
+      <a href="https://wa.me/6281234567890?text=Saya+akan+hadir+di+acara+pernikahan+Galih+dan+Dian" target="_blank" class="btn">Konfirmasi Kehadiran</a>
+    </div>
     <!-- Attendance form end -->
 
     <!-- Gift -->
