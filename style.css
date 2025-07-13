@@ -506,6 +506,10 @@ footer li {
 /* Tombol */
 .buttons {
   margin-top: 20px;
+  display: flex;
+  justify-content: center; /* >> ini penting untuk memusatkan */
+  flex-wrap: wrap;          /* >> supaya jika banyak tombol, bisa turun ke bawah */
+  gap: 10px;                /* >> jarak antar tombol */
 }
 
 .btn {
