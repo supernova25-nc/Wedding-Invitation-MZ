@@ -502,3 +502,23 @@ footer li {
     top: 31px;
   }
 }
+
+/* Tombol */
+.buttons {
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  margin: 10px;
+  padding: 12px 24px;
+  background: #cc3366;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #a52a4d;
+}
